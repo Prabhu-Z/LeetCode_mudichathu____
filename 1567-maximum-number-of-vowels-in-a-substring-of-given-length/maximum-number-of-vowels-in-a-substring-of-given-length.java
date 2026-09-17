@@ -11,14 +11,13 @@ class Solution {
             }
             if(i>=k-1){
                 max=Math.max(max,count);
-               
             }
         }
         return max;
+        
     }
-      public boolean isVowel(char c) {
-
-        return c == 'a' || c == 'e' || c == 'i' ||
-               c == 'o' || c == 'u';
+    public boolean isVowel(char c) {
+        return c == 'a' || c == 'e' || c == 'i'
+            || c == 'o' || c == 'u';
     }
 }
